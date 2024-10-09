@@ -1,0 +1,27 @@
+{
+  "type": "module",
+  "name": "robl-remote-client",
+  "private": true,
+  "version": "1.0.0",
+  "description": "An HTTP/HTTPS client server and TCP/IP proxy over WebSocket",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Niko H.",
+  "license": "GNU GPL V3",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "grf-loader": "^0.0.2",
+    "ws": "^8.18.0"
+  },
+  "engines": {
+    "npm": ">=8.0.0",
+    "node": ">=16.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.4"
+  }
+}
